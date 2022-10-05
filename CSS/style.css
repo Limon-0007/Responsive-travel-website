@@ -1,0 +1,383 @@
+/* common css */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Volkhov', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common css ends here */
+
+/* navbar section stars from here */
+nav ul li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400 !important;
+  font-size: 17px;
+}
+nav ul li a {
+  color: #212832 !important;
+}
+
+.navbar ul li a:hover {
+  color: #d82148 !important;
+}
+
+/* 
+travel section starts from here */
+
+.decore img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 666px;
+  height: 602px;
+  z-index: -1;
+}
+
+@media (max-width: 420px) {
+  .navbar-brand img {
+    position: absolute;
+    left: 7vw;
+  }
+  .navbar-toggler {
+    position: relative;
+    top: 3vh;
+  }
+
+  .decore img {
+    height: 400px;
+    width: 300px;
+    z-index: -1;
+  }
+  .texts {
+    width: 100%;
+  }
+
+  .col-6-2 {
+    margin-top: 15vw;
+    background-color: #eeedde;
+    width: 100%;
+  }
+  .col-6 img {
+    width: 355px;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .card-texts {
+    width: 70%;
+  }
+  .border-0 {
+    margin-left: 7%;
+  }
+  .bookings-sub-heading {
+    margin-left: 7% !important;
+  }
+  .bookings-heading {
+    font-size: 30px !important;
+    margin-left: 7%;
+  }
+
+  .bookings-sub-heading {
+    margin-left: 7%;
+    width: 100%;
+  }
+}
+
+.texts {
+  position: relative;
+  top: 10vh;
+  left: 3vw;
+}
+
+.semi-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #df6951;
+}
+
+.bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #181e4b;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+  margin-right: 30px;
+}
+
+.col-6-2 {
+  position: relative;
+  top: 10vh;
+}
+
+.col-6 img {
+  height: 470px;
+}
+
+.btn-outline-warning {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.btn-outline-warning:hover {
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+}
+
+.bi-play-circle {
+  font-size: 45px;
+  color: crimson;
+  margin-left: 4vw;
+}
+
+.play {
+  margin-top: 2vh;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+/* category section starts from here */
+
+.category-subheading {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.category-heading {
+  font-family: "volkhov", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+}
+
+.category-text-heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 1.5rem;
+  color: #1e1d4c;
+}
+
+.big-font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 1.3rem;
+  color: #1e1d4c;
+}
+
+.category-text {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+  text-align: center;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+/* top destinations section starts from here */
+
+.top-selling-sub-heading {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.top-selling-heading {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+}
+
+.card-title {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.card-text {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.last p {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+}
+
+.image {
+  width: 270px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s ease-out;
+}
+
+.button-2 {
+  font-size: 14px;
+  padding: 0.6em 2.2em;
+  border: 0;
+  border-radius: 25px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.image:hover button {
+  bottom: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.button-2:hover {
+  background-color: black;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.image:hover img {
+  transform: scale(1.2);
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.image:hover .bg {
+  opacity: 1;
+}
+
+/* this section ends here */
+
+/* bookings section starts from here */
+
+.heading-sub-heading {
+  width: 80%;
+}
+
+.bookings-sub-heading {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.bookings-heading {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+}
+.choose-destination {
+  display: flex;
+}
+.choose-destination img {
+  height: 60px;
+  width: 50px;
+}
+.bookings-image-text {
+  display: block;
+  margin-left: 1rem;
+  width: 60%;
+}
+
+.bookings-image-text-heading {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5e6282;
+}
+
+.bookings-image-text-body {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e6282;
+}
+
+/* trip to Greece */
+
+.Trip-image img {
+  width: 270px;
+  padding: 15px;
+  border: 0;
+  border-radius: 35px;
+}
+
+.Trip-card {
+  position: relative;
+  top: 30%;
+  background-color: #f1ebeb;
+  border: 0;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #080809;
+}
+
+.body {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #84829a;
+  margin-top: 1em;
+}
+
